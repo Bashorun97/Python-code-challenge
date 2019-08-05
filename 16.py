@@ -11,7 +11,7 @@ In case of input data being supplied to the question,
 it should be assumed to be a console input.
 '''
 def square_list():
-    compute_square = [int(i)**2 for i in input('Enter array: ').split(',')]
-    return compute_square
+    computeSquare = [int(i)**2 for i in input('Enter array: ').split(',')]
+    return computeSquare
 
 print(square_list())
