@@ -36,6 +36,6 @@ def valid_password():
             pass
         if re.search("[a-z]", password) and re.search("[A-Z]", password) and re.search("[0-9]", password) and re.search("[$#@]", password):
             valid_pass.append(password)
-        print(valid_pass)
+        print(','.join(valid_pass))
 
 valid_password()
